@@ -1,7 +1,12 @@
 import type { Metadata, Viewport } from "next";
 import { Bricolage_Grotesque } from "next/font/google";
 import localFont from "next/font/local";
+import Script from "next/script";
+import CookieConsent from "@/components/CookieConsent";
 import "./globals.css";
+
+// Google Analytics 4 (gtag.js) measurement ID
+const GA_MEASUREMENT_ID = "G-BMBRF58V8B";
 
 // Body / UI face — clean and professional (variable font shipped in repo).
 const geist = localFont({
@@ -78,6 +83,31 @@ export default function RootLayout({
     >
       <body className="font-sans bg-brand-black text-white antialiased min-h-screen overflow-x-hidden selection:bg-brand-yellow selection:text-brand-black">
         {children}
+
+        {/* Cookie consent banner (controls Analytics via Consent Mode) */}
+        <CookieConsent />
+
+        {/* Google Analytics 4 (gtag.js) */}
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            // Consent Mode v2 — tutto negato finché l'utente non accetta (GDPR)
+            gtag('consent', 'default', {
+              'ad_storage': 'denied',
+              'ad_user_data': 'denied',
+              'ad_personalization': 'denied',
+              'analytics_storage': 'denied',
+              'wait_for_update': 500
+            });
+            gtag('js', new Date());
+            gtag('config', '${GA_MEASUREMENT_ID}');
+          `}
+        </Script>
       </body>
     </html>
   );

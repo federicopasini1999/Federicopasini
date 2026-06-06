@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { SOCIAL_LINKS } from "@/lib/constants";
 import { ArrowUpRight } from "lucide-react";
 
@@ -84,16 +85,24 @@ export default function Footer() {
             P. IVA IT04798890408
           </span>
         </p>
-        <a
-          href="#"
-          className="flex items-center gap-1.5 text-white/50 hover:text-brand-yellow transition-colors duration-200 group"
-        >
-          Torna su
-          <ArrowUpRight
-            size={14}
-            className="-rotate-45 group-hover:-translate-y-0.5 transition-transform duration-200"
-          />
-        </a>
+        <div className="flex items-center gap-5">
+          <Link
+            href="/privacy"
+            className="text-white/50 hover:text-brand-yellow transition-colors duration-200"
+          >
+            Privacy &amp; Cookie
+          </Link>
+          <a
+            href="#"
+            className="flex items-center gap-1.5 text-white/50 hover:text-brand-yellow transition-colors duration-200 group"
+          >
+            Torna su
+            <ArrowUpRight
+              size={14}
+              className="-rotate-45 group-hover:-translate-y-0.5 transition-transform duration-200"
+            />
+          </a>
+        </div>
       </div>
     </footer>
   );
