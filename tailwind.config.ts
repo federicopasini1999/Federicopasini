@@ -11,6 +11,16 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        accent: "var(--accent)",
+        "accent-muted": "var(--accent-muted)",
+        "brand-black": "#050505",
+        "brand-yellow": "#FFCC00",
+        "card-bg": "var(--card-bg)",
+        "card-border": "var(--card-border)",
+      },
+      fontFamily: {
+        sans: ["var(--font-sans)", "Inter", "sans-serif"],
+        display: ["var(--font-display)", "Inter", "sans-serif"],
       },
     },
   },
