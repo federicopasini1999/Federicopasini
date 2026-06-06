@@ -34,10 +34,10 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.federicopasini.it"),
+  metadataBase: new URL("https://federicopasini.it"),
   title: "Federico Pasini · Presentatore di eventi e Content Creator",
   description:
-    "Federico Pasini presenta eventi, crea contenuti social e collabora con aziende, fiere e brand. Volto di POV Interviste, format da oltre 5 milioni di utenti raggiunti mensilmente.",
+    "Federico Pasini presenta eventi e crea contenuti social per brand, fiere e aziende. Volto di POV Interviste, format da oltre 5 milioni di utenti al mese.",
   keywords: [
     "Federico Pasini",
     "presentatore eventi",
@@ -51,8 +51,8 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Federico Pasini · Presentatore di eventi e Content Creator",
     description:
-      "Federico Pasini presenta eventi, crea contenuti social e collabora con aziende, fiere e brand. Volto di POV Interviste, format da oltre 5 milioni di utenti raggiunti mensilmente.",
-    url: "https://www.federicopasini.it",
+      "Federico Pasini presenta eventi e crea contenuti social per brand, fiere e aziende. Volto di POV Interviste, format da oltre 5 milioni di utenti al mese.",
+    url: "https://federicopasini.it",
     siteName: "Federico Pasini",
     locale: "it_IT",
     type: "website",
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Federico Pasini · Presentatore di eventi e Content Creator",
     description:
-      "Federico Pasini presenta eventi, crea contenuti social e collabora con aziende, fiere e brand. Volto di POV Interviste, format da oltre 5 milioni di utenti raggiunti mensilmente.",
+      "Federico Pasini presenta eventi e crea contenuti social per brand, fiere e aziende. Volto di POV Interviste, format da oltre 5 milioni di utenti al mese.",
   },
   // Le icone (icon.svg, icon.png, apple-icon.png) sono rilevate automaticamente da Next dalla cartella app/.
 };
