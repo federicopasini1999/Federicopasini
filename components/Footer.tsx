@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <footer className="bg-brand-black border-t border-white/10 py-16 px-6 md:px-12 relative overflow-hidden">
       {/* Subtle ambient light at the footer */}
-      <div className="absolute bottom-[-100px] left-1/2 -translate-x-1/2 w-[300px] h-[300px] bg-brand-yellow/5 rounded-full blur-[100px] pointer-events-none" />
+      <div className="absolute bottom-[-100px] left-1/2 -translate-x-1/2 w-[300px] h-[300px] bg-brand-yellow/5 rounded-full blur-[50px] md:blur-[100px] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:justify-between items-start md:items-center gap-10">
         <div>

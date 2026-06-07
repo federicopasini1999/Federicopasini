@@ -31,8 +31,8 @@ export default function Experience() {
   return (
     <section id="esperienze" className="relative py-24 md:py-32 bg-brand-black px-6 md:px-12 border-t border-white/5 overflow-hidden">
       {/* Decorative ambient gradients */}
-      <div className="absolute top-[20%] right-[-10%] w-[350px] h-[350px] bg-brand-yellow/5 rounded-full blur-[110px] pointer-events-none" />
-      <div className="absolute bottom-[20%] left-[-10%] w-[400px] h-[400px] bg-white/3 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute top-[20%] right-[-10%] w-[350px] h-[350px] bg-brand-yellow/5 rounded-full blur-[55px] md:blur-[110px] pointer-events-none" />
+      <div className="absolute bottom-[20%] left-[-10%] w-[400px] h-[400px] bg-white/3 rounded-full blur-[60px] md:blur-[120px] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto relative z-10">
         

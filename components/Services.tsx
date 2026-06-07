@@ -17,8 +17,8 @@ export default function Services() {
   return (
     <section id="servizi" className="relative py-24 md:py-32 bg-brand-black px-6 md:px-12 border-t border-white/5 overflow-hidden">
       {/* Visual background accents */}
-      <div className="absolute top-1/2 left-[-10%] w-[400px] h-[400px] bg-brand-yellow/5 rounded-full blur-[120px] pointer-events-none" />
-      <div className="absolute bottom-0 right-[10%] w-[300px] h-[300px] bg-white/3 rounded-full blur-[80px] pointer-events-none" />
+      <div className="absolute top-1/2 left-[-10%] w-[400px] h-[400px] bg-brand-yellow/5 rounded-full blur-[60px] md:blur-[120px] pointer-events-none" />
+      <div className="absolute bottom-0 right-[10%] w-[300px] h-[300px] bg-white/3 rounded-full blur-[40px] md:blur-[80px] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto relative z-10">
         

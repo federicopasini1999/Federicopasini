@@ -26,7 +26,7 @@ export default function FinalCTA() {
   return (
     <section id="contatti" className="relative py-28 md:py-36 bg-brand-black px-6 md:px-12 border-t border-white/5 overflow-hidden">
       {/* Intense background glow at the center */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-brand-yellow/10 rounded-full blur-[140px] pointer-events-none" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-brand-yellow/10 rounded-full blur-[70px] md:blur-[140px] pointer-events-none" />
       <div className="absolute top-0 left-0 w-full h-full bg-[linear-gradient(rgba(255,255,255,0.003)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.003)_1px,transparent_1px)] bg-[size:100px_100px] opacity-20 pointer-events-none" />
 
       <div className="max-w-4xl mx-auto text-center relative z-10">

@@ -24,9 +24,9 @@ export default function Hero() {
       </div>
 
       {/* Decorative ambient glowing circles */}
-      <div className="absolute top-[20%] left-[-10%] w-[400px] h-[400px] bg-brand-yellow/10 rounded-full blur-[120px] pointer-events-none" />
-      <div className="absolute bottom-[10%] right-[-10%] w-[500px] h-[500px] bg-brand-yellow/5 rounded-full blur-[150px] pointer-events-none" />
-      <div className="absolute top-[40%] right-[30%] w-[300px] h-[300px] bg-white/5 rounded-full blur-[100px] pointer-events-none" />
+      <div className="absolute top-[20%] left-[-10%] w-[400px] h-[400px] bg-brand-yellow/10 rounded-full blur-[60px] md:blur-[120px] pointer-events-none" />
+      <div className="absolute bottom-[10%] right-[-10%] w-[500px] h-[500px] bg-brand-yellow/5 rounded-full blur-[75px] md:blur-[150px] pointer-events-none" />
+      <div className="absolute top-[40%] right-[30%] w-[300px] h-[300px] bg-white/5 rounded-full blur-[50px] md:blur-[100px] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center z-10">
         
@@ -122,7 +122,7 @@ export default function Hero() {
             
             {/* The premium generated image */}
             <Image
-              src="/images/federico_hero.png"
+              src="/images/federico_hero.webp"
               alt="Federico Pasini Presentatore"
               fill
               sizes="(max-w-768px) 100vw, 400px"

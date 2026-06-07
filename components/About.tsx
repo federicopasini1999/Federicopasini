@@ -16,8 +16,8 @@ export default function About() {
   return (
     <section id="chi-sono" className="relative py-24 md:py-32 bg-brand-black overflow-hidden px-6 md:px-12 border-t border-white/5">
       {/* Decorative background glows */}
-      <div className="absolute top-[40%] right-[-10%] w-[350px] h-[350px] bg-brand-yellow/5 rounded-full blur-[100px] pointer-events-none" />
-      <div className="absolute bottom-[20%] left-[-10%] w-[300px] h-[300px] bg-white/3 rounded-full blur-[80px] pointer-events-none" />
+      <div className="absolute top-[40%] right-[-10%] w-[350px] h-[350px] bg-brand-yellow/5 rounded-full blur-[50px] md:blur-[100px] pointer-events-none" />
+      <div className="absolute bottom-[20%] left-[-10%] w-[300px] h-[300px] bg-white/3 rounded-full blur-[40px] md:blur-[80px] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
@@ -69,7 +69,7 @@ export default function About() {
                 <div className="absolute inset-0 bg-brand-yellow/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10 pointer-events-none mix-blend-overlay" />
                 
                 <Image
-                  src="/images/federico_about.png"
+                  src="/images/federico_about.webp"
                   alt="Federico Pasini Presentatore in Azione"
                   fill
                   sizes="(max-w-768px) 100vw, 450px"

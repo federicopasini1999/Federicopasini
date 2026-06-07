@@ -38,8 +38,8 @@ export default function POVSection() {
   return (
     <section id="pov-interviste" className="relative bg-brand-black pt-20 pb-24 md:py-32 overflow-hidden border-t border-white/5">
       {/* Decorative background gradients */}
-      <div className="absolute top-1/2 right-[-10%] w-[450px] h-[450px] bg-brand-yellow/5 rounded-full blur-[130px] pointer-events-none" />
-      <div className="absolute bottom-[10%] left-[-15%] w-[400px] h-[400px] bg-brand-yellow/10 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute top-1/2 right-[-10%] w-[450px] h-[450px] bg-brand-yellow/5 rounded-full blur-[65px] md:blur-[130px] pointer-events-none" />
+      <div className="absolute bottom-[10%] left-[-15%] w-[400px] h-[400px] bg-brand-yellow/10 rounded-full blur-[60px] md:blur-[120px] pointer-events-none" />
 
       {/* Infinite marquee ribbon */}
       <div className="w-full bg-brand-yellow text-brand-black py-4 mb-20 overflow-hidden relative select-none -rotate-1 scale-[1.02] border-y-2 border-white shadow-[0_10px_30px_rgba(255,204,0,0.15)] z-20">
@@ -61,7 +61,7 @@ export default function POVSection() {
               {/* POV Interviste logo */}
               <div className="relative h-16 w-44 md:h-20 md:w-56 mb-6">
                 <Image
-                  src="/images/logo-pov.png"
+                  src="/images/logo-pov.webp"
                   alt="POV Interviste"
                   fill
                   sizes="224px"
@@ -127,7 +127,7 @@ export default function POVSection() {
                       <div className="absolute -inset-[3px] rounded-full bg-[conic-gradient(from_215deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5,#feda75)]" />
                       <div className="relative h-[72px] w-[72px] rounded-full bg-brand-black border-2 border-brand-black flex items-center justify-center overflow-hidden">
                         <Image
-                          src="/images/logo-pov.png"
+                          src="/images/logo-pov.webp"
                           alt="POV Interviste"
                           width={60}
                           height={60}

@@ -66,7 +66,7 @@ export default function Stats() {
   return (
     <section className="relative py-24 md:py-32 bg-brand-black px-6 md:px-12 border-t border-white/5 overflow-hidden">
       {/* Dynamic ambient highlights */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] bg-brand-yellow/5 rounded-full blur-[160px] pointer-events-none" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] bg-brand-yellow/5 rounded-full blur-[80px] md:blur-[160px] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto relative z-10">
         

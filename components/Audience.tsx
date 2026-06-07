@@ -17,8 +17,8 @@ export default function Audience() {
   return (
     <section className="relative py-24 md:py-32 bg-brand-black px-6 md:px-12 border-t border-white/5 overflow-hidden">
       {/* Background radial soft light */}
-      <div className="absolute bottom-[10%] left-[-5%] w-[400px] h-[400px] bg-brand-yellow/5 rounded-full blur-[120px] pointer-events-none" />
-      <div className="absolute top-[10%] right-[-5%] w-[350px] h-[350px] bg-white/3 rounded-full blur-[90px] pointer-events-none" />
+      <div className="absolute bottom-[10%] left-[-5%] w-[400px] h-[400px] bg-brand-yellow/5 rounded-full blur-[60px] md:blur-[120px] pointer-events-none" />
+      <div className="absolute top-[10%] right-[-5%] w-[350px] h-[350px] bg-white/3 rounded-full blur-[45px] md:blur-[90px] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto relative z-10">
         

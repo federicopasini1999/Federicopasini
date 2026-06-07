@@ -28,7 +28,7 @@ export const EXPERIENCE_CONTENT = {
   description: "Durante il RiminiWellness, Federico ha condotto le attività live della De Cecco High Protein Arena. Ha presentato momenti dinamici, interviste ed esibizioni sul palco principale coinvolgendo ospiti speciali, tra cui Elisabetta Canalis, connettendo il pubblico presente all'evento fisico con la cassa di risonanza dei canali social.",
   highlight: "Presentazione live, ritmo di conduzione e interazione con ospiti di rilievo internazionale davanti a migliaia di visitatori.",
   videoSrc: "/videos/intervista-elisabetta.mp4",
-  photoSrc: "/images/experience_photo.png",
+  photoSrc: "/images/experience_photo.webp",
 };
 
 export const ABOUT_CONTENT = {

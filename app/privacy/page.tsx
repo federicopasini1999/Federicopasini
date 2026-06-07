@@ -19,7 +19,7 @@ export default function PrivacyPage() {
     <>
       <main className="relative bg-brand-black min-h-screen px-6 md:px-12 pt-28 pb-24">
         {/* Ambient glow */}
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[500px] h-[300px] bg-brand-yellow/5 rounded-full blur-[140px] pointer-events-none" />
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[500px] h-[300px] bg-brand-yellow/5 rounded-full blur-[70px] md:blur-[140px] pointer-events-none" />
 
         <div className="max-w-3xl mx-auto relative z-10">
           <Link
